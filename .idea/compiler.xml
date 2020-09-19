@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-thymeleaf" />
+        <module name="02-config" />
+        <module name="05-operator" />
+        <module name="03-mybatis" />
+        <module name="01-first" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-first" target="1.8" />
+      <module name="02-config" target="1.8" />
+      <module name="03-mybatis" target="1.8" />
+      <module name="04-thymeleaf" target="1.8" />
+      <module name="05-operator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01-first" options="-parameters" />
+      <module name="02-config" options="-parameters" />
+      <module name="03-mybatis" options="-parameters" />
+      <module name="04-thymeleaf" options="-parameters" />
+      <module name="05-operator" options="-parameters" />
+    </option>
+  </component>
+</project>

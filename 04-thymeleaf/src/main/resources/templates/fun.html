@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:text="|这是第${page}页,总共${total}页|"></div>
+    <div th:text="${sex eq 0}?'男':'女'"></div>
+    <div th:text="${#request.getContextPath()}"></div>
+    <div th:text="${#dates.format(curdate,'HH:mm:ss')}"></div>
+</body>
+</html>
